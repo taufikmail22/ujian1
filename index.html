@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #eee;
+      padding: 10px 20px;
+    }
+    header nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 20px;
+      background-color: #fff;
+    }
+    .hero-text {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .hero-img {
+      width: 600px;
+      height: 400px;
+      background-color: #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 24px;
+    }
+    .about {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #f2f2f2;
+    }
+    .about-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+      padding: 0 50px;
+    }
+    .about-info div {
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+    .portfolio {
+      padding: 30px 20px;
+      background-color: #fff;
+    }
+    .portfolio h2 {
+      text-align: center;
+    }
+    .portfolio-items {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .portfolio-item {
+      text-align: center;
+    }
+    .portfolio-img {
+      width: 350px;
+      height: 200px;
+      background-color: #ccc;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>Brand</div>
+    <nav>
+      <a href="#">Header</a>
+      <a href="#">Biodata</a>
+      <a href="#">Portofolio</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Selamat Datang di Website Saya</h2>
+      <p>Ini adalah contoh website dengan dua kolom. Kolom ini berisi teks seperti ini.</p>
+      <a href="#">Pelajari Lebih Lanjut</a>
+    </div>
+    <div class="hero-img">600 × 400</div>
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+    <div class="about-info">
+      <div>Full Name</div>
+      <div>Education</div>
+      <div>Pekerjaan</div>
+      <div>Contact</div>
+      <div>Hobi</div>
+      <div>Alamat</div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h2>Portofolio</h2>
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <div class="portfolio-img">350 × 200</div>
+        <p>Proyek 1<br>Deskripsi proyek 1.</p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img">350 × 200</div>
+        <p>Proyek 2<br>Deskripsi proyek 2.</p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img">350 × 200</div>
+        <p>Proyek 3<br>Deskripsi proyek 3.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
